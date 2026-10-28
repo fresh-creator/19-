@@ -1,0 +1,6 @@
+Create table Distsipliny (
+kod_discipliny serial primary key,
+nazvanie varchar(150) not null,
+opisanie text,
+god_vvedenia int not null
+);
